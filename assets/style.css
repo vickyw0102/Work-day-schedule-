@@ -10,7 +10,7 @@ line-height: 1;
 }
 textarea {
     background: transparent;
-    border: none;
+    border-color: rgb(31, 27, 27);;
     resize: none;
     color: rgb(82, 82, 82);
     border-left: 1px solid rgb(82, 82, 82);
@@ -34,13 +34,14 @@ font-weight: 600;
 
 .time-block {
 text-align: center;
+color: rgb(31, 27, 27);
 border-radius: 15px;
 }
 
 .row {
 white-space: pre-wrap;
 height: 80px;
-border-top: 1px solid white;
+border-top: 1px solid rgb(11, 239, 45);
 }
 
 .hour {
@@ -55,18 +56,18 @@ border-top: 1px solid white;
 .past {
     background-color: #dfe6e9;
     border-radius: 15px;
-    color: white;
+    color: rgb(31, 27, 27);
 }
 
 .present {
 background-color: #ff6961;
-color: white;
+color: rgb(31, 27, 27);
 border-radius: 15px;
 }
 
 .future {
 background-color: #77dd77;
-color: white;
+color: rgb(31, 27, 27);
 border-radius: 15px;
 }
 
@@ -84,5 +85,5 @@ transition: all 0.3s ease-in-out;
 }
 
 .white-text {
-    color:white;
+    color: rgb(201, 16, 16);
 }
