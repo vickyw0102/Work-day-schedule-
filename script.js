@@ -12,7 +12,7 @@ $(".time-div").each(function(){
     var timeDiv = $(this).attr("id").split("-")[1];
     var currentHours = dayjs ().hour();
     console.log(currentHours);
-    timeBlock.addClass('.time-div');
+    // timeBlockContainer.addClass('.time-div');
 
     if(currentHours==timeDiv){
         $(this).addClass("present");
@@ -48,5 +48,12 @@ $(".btn").click(function (event) {
     $("#hour-15 .time-div").val(localStorage.getItem("15"));
     $("#hour-16 .time-div").val(localStorage.getItem("16"));
     $("#hour-17 .time-div").val(localStorage.getItem("17"));
+    $("#hour-18 .time-div").val(localStorage.getItem("18"));
+    $("#hour-19 .time-div").val(localStorage.getItem("19"));
+    $("#hour-20 .time-div").val(localStorage.getItem("20"));
+    $("#hour-21 .time-div").val(localStorage.getItem("21"));
+    $("#hour-22 .time-div").val(localStorage.getItem("22"));
+    $("#hour-23 .time-div").val(localStorage.getItem("23"));
+    $("#hour-24 .time-div").val(localStorage.getItem("24"));
 
 
