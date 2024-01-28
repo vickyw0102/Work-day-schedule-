@@ -8,10 +8,11 @@ line-height: 1;
 .container {
     max-width: 1024px;
     margin:100,100,100,100;
+    background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
 }
 textarea {
     background: transparent;
-    border-color: rgb(31, 27, 27);;
+    border-color: rgb(229, 225, 225);;
     resize: none;
     color: rgb(82, 82, 82);
     border-left: 1px solid rgb(82, 82, 82);
@@ -19,10 +20,14 @@ textarea {
     letter-spacing: 1px;
 }
 
+.jumbotron {
+    text-align: center;
+    background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+}
 header {
 text-align: center;
-background-color: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
-color: black;
+background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+color: rgba(118, 21, 221, 0.543);
 border-radius: 0;
 border-bottom: 10px solid black;
 padding: 60px;
@@ -33,20 +38,20 @@ white-space: pre-wrap;
 font-weight: 600;
 }
 
-.time-block {
+.time-div {
 text-align: center;
-color: rgb(91, 203, 85);
+color:1px solid rgb(111, 38, 189);
 border-radius: 15px;
 }
 
 .row {
 white-space: pre-wrap;
 height: 80px;
-border-top: 1px solid rgb(11, 239, 45);
+border-top: transparent;
 }
 
 .hour {
-    background-color: #ffeaa7;
+    background-color: rgb(237, 158, 233,0.5);
     color: rgb(82, 82, 82);
     padding-top: 27px;
     padding-left: 10px;
@@ -55,36 +60,36 @@ border-top: 1px solid rgb(11, 239, 45);
 }
 
 .past {
-    background-color: #dfe6e9;
+    background-color: rgb(175, 218, 236,0.5);
     border-radius: 15px;
-    color: rgb(31, 27, 27);
+    color: rgb(23, 186, 151);
 }
 
 .present {
-background-color: #ff6961;
-color: rgb(31, 27, 27);
+background-color: #ff61f776;
+color: rgb(28, 31, 27);
 border-radius: 15px;
 }
 
 .future {
-background-color: #77dd77;
+background-color: #d9f8d9;
 color: rgb(31, 27, 27);
 border-radius: 15px;
 }
 
 .saveBtn {
 border-left: 1px solid black;
-border-top-right-radius: 15px;
-border-bottom-right-radius: 15px;
-background-color: #06aed5;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+background-color: #091c7d;
 color: white;
 }
 
 .saveBtn i:hover {
-font-size: 30px;
+font-size: 50px;
 transition: all 0.3s ease-in-out;
 }
 
 .white-text {
-    color: rgb(201, 16, 16);
+    color: rgb(9, 11, 120);
 }
