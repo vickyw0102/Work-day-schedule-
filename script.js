@@ -43,18 +43,17 @@ $(".saveBtn").click(function (event) {
     $("#hour-09 .item").val(localStorage.getItem("09"));
     $("#hour-10 .item").val(localStorage.getItem("10"));
     $("#hour-11 .item").val(localStorage.getItem("11"));
-    $("#hour-12 .time-div").val(localStorage.getItem("12"));
-    $("#hour-13 .time-div").val(localStorage.getItem("13"));
-    $("#hour-14 .time-div").val(localStorage.getItem("14"));
-    $("#hour-15 .time-div").val(localStorage.getItem("15"));
-    $("#hour-16 .time-div").val(localStorage.getItem("16"));
-    $("#hour-17 .time-div").val(localStorage.getItem("17"));
-    $("#hour-18 .time-div").val(localStorage.getItem("18"));
-    $("#hour-19 .time-div").val(localStorage.getItem("19"));
-    $("#hour-20 .time-div").val(localStorage.getItem("20"));
-    $("#hour-21 .time-div").val(localStorage.getItem("21"));
-    $("#hour-22 .time-div").val(localStorage.getItem("22"));
-    $("#hour-23 .time-div").val(localStorage.getItem("23"));
-    $("#hour-24 .time-div").val(localStorage.getItem("24"));
-
+    $("#hour-12 .item").val(localStorage.getItem("12"));
+    $("#hour-13 .item").val(localStorage.getItem("13"));
+    $("#hour-14 .item").val(localStorage.getItem("14"));
+    $("#hour-15 .item").val(localStorage.getItem("15"));
+    $("#hour-16 .item").val(localStorage.getItem("16"));
+    $("#hour-17 .item").val(localStorage.getItem("17"));
+    $("#hour-18 .item").val(localStorage.getItem("18"));
+    $("#hour-19 .item").val(localStorage.getItem("19"));
+    $("#hour-20 .item").val(localStorage.getItem("20"));
+    $("#hour-21 .item").val(localStorage.getItem("21"));
+    $("#hour-22 .item").val(localStorage.getItem("22"));
+    $("#hour-23 .item").val(localStorage.getItem("23"));
+    $("#hour-24 .item").val(localStorage.getItem("24"));
 
